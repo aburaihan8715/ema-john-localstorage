@@ -1,0 +1,50 @@
+.main_header {
+}
+.navbar {
+  display: flex;
+  background-color: #1c2b35;
+  height: 8rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+.logo_link {
+  display: inline-block;
+}
+.logo_heading {
+  display: inline-block;
+  margin: 0;
+}
+.logo {
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav_item {
+}
+.nav_link:link,
+.nav_link:visited {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.3s;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+}
+
+.nav_link:hover,
+.nav_link:active {
+  color: #ff9900;
+  border-bottom: 2px solid #cc7c04;
+}
+.nav_link_btn {
+  background-color: #ff9900;
+  border-radius: 5px;
+}
+.nav_link_btn:hover {
+  background-color: #cc7c04;
+  color: #fff;
+}
